@@ -123,3 +123,13 @@ menuIcon.addEventListener('click',() => {
         menuContent.classList.add('hidden_menu');
     }
 });
+document.getElementById('button-mode').addEventListener('click',() => {
+    if (document.querySelector('body').classList.contains('darkMode')) {
+        document.querySelector('body').classList.remove('darkMode');
+        document.getElementById('button-mode').innerText = 'Light Mode';
+    }
+    else {
+        document.querySelector('body').classList.add('darkMode');
+        document.getElementById('button-mode').innerText = 'Dark Mode';
+    }
+}) 
