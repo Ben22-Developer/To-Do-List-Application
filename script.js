@@ -89,6 +89,7 @@ taskList.addEventListener('click', (e) => {
 });
 buttonTaskType.forEach((button) => {
     button.addEventListener('click',() => {
+        menuContent.classList.add('hidden_menu');
         if (button.innerText === 'All Tasks') {
                 for (loop = 0; loop < allTasks.length; loop++) {
                     if (allTasks[loop].classList.contains('theTask')) {
