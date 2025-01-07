@@ -5,7 +5,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
-    background-image: url(/images/pexels-photo-5717409.jpeg);
+    background-image: url(/images/pexels-photo-5717409.jpeg) !important;
     background-repeat: repeat;
     background-position:right;
     background-size:100% 100%;
